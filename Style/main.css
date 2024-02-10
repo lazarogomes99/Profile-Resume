@@ -1,0 +1,63 @@
+main {
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+main .main-content h2 {
+    margin-bottom: 2%;
+    font-size: 2.2em;
+}
+
+main .main-content .text {
+    margin-bottom: 10%;
+}
+
+main .main-content .text p {
+    width: 75%;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+main .techs .cards-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 3.5em;
+}
+
+main .techs .cards-container .card{
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+main .techs .cards-container .card:hover {
+    color: aquamarine;
+    filter: drop-shadow(0px 0px 5px);
+}
+
+main figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main figure img {
+    width: 400px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 6%;
+    border: 1px solid aquamarine;
+    transition: 0.3s ease-in-out;
+}
+
+main figure img:hover {
+    color: aquamarine;
+    filter: drop-shadow(0px 0px 5px);
+}
